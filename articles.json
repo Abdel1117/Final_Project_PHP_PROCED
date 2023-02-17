@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "title": "Banner",
+        "category": "BannerBanner",
+        "image": "article_1.jpg",
+        "content": "L'\u00e9p\u00e9e commence \u00e0 murmurer \u00e0 l'oreille de Fulgrim qui interpr\u00e8te cette voix comme sa conscience. Le d\u00e9mon souffle sur les braises de ses frustrations (\u00e9checs artistiques, manque de reconnaissance de la part de ses fr\u00e8res, haine de la bureaucratie naissante de l'Imperium). Au m\u00eame moment, le Primarque d\u00e9couvre les th\u00e9ories de Cornelius Blayke qui professait que pour obtenir la sagesse, un homme devait laisser libre court \u00e0 ses instincts. Il suit ces conseils et devient rapidement d\u00e9cadent. 4",
+        "username": {
+            "pseudo": "Spartan117",
+            "nom": "abderahmane.adjali@live.fr",
+            "prenom": "Adjali",
+            "email": "Abderahmane",
+            "adresse": "8 rue des lilas",
+            "ville": "Aulnay-sous-bois",
+            "code_postal": "93600"
+        },
+        "date": "2023-02-17 14:35:28"
+    },
+    {
+        "id": 2,
+        "title": "Banner",
+        "category": "BannerBanner",
+        "image": "article_2.jpg",
+        "content": "L'\u00e9p\u00e9e commence \u00e0 murmurer \u00e0 l'oreille de Fulgrim qui interpr\u00e8te cette voix comme sa conscience. Le d\u00e9mon souffle sur les braises de ses frustrations (\u00e9checs artistiques, manque de reconnaissance de la part de ses fr\u00e8res, haine de la bureaucratie naissante de l'Imperium). Au m\u00eame moment, le Primarque d\u00e9couvre les th\u00e9ories de Cornelius Blayke qui professait que pour obtenir la sagesse, un homme devait laisser libre court \u00e0 ses instincts. Il suit ces conseils et devient rapidement d\u00e9cadent. 4",
+        "username": {
+            "pseudo": "Spartan117",
+            "nom": "abderahmane.adjali@live.fr",
+            "prenom": "Adjali",
+            "email": "Abderahmane",
+            "adresse": "8 rue des lilas",
+            "ville": "Aulnay-sous-bois",
+            "code_postal": "93600"
+        },
+        "date": "2023-02-17 14:36:26"
+    },
+    {
+        "id": 3,
+        "title": "Les com\u00e8tes",
+        "category": "ObjetStellaire",
+        "image": "article_3.png",
+        "content": "Une longue queue sillionnant le ciel nocturne et couronn\u00e9e par une sorte de boule de feu blanche : on comprend que bien des peuples aient vu, dans l'apparition des com\u00e8tes, un signe du courroux des dieux. Une com\u00e8tes (on sait aujourd'hui qu'il s'agissait de Halley) est apparue en 1066 au moment o\u00f9 Guillaume le conqu\u00e9rant et ses Normands ont pris pied en Grande-Bretagne. La tapiserie de Bayeux, qui c\u00e9l\u00e8bre la btaille de Hastings et ses vainqueurs, place la com\u00e8te sur le m\u00eame plan que le roi Harold, grand perdant de la bataill; sugg\u00e9rant ainsi que c'\u00e9tait le signe que Dieu d\u00e9sapprouvait l'usurpation du tr\u00f4ne en m\u00eame temps qu'il annon\u00e7ait sa d\u00e9faite. On \u00e0 encore accus\u00e9 les com\u00e8tes entre autres griefs, d'\u00eatre responsables de la peste noire en Europe, de tremblement de terre dans diverses r\u00e9gions du monde, et de la d\u00e9faite des Incas en Am\u00e9rique du Sud. En 1456, la com\u00e8te de Haley fut m\u00eame condamn\u00e9 comme diabolique par le pape.\r\nDepuis, la science a tir\u00e9 les com\u00e8tes de leur statut de damn\u00e9es et a fait prendre conscience qu'elles sont un ph\u00e9nom\u00e8ne tr\u00e8s naturel et constituent vraisemblamlement les vestiges de la cr\u00e9ation du Syst\u00e8me solaire.",
+        "username": {
+            "pseudo": "Spartan117",
+            "nom": "abderahmane.adjali@live.fr",
+            "prenom": "Adjali",
+            "email": "Abderahmane",
+            "adresse": "8 rue des lilas",
+            "ville": "Aulnay-sous-bois",
+            "code_postal": "93600"
+        },
+        "date": "2023-02-17 15:30:44"
+    }
+]
