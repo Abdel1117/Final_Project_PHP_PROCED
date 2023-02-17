@@ -1,5 +1,7 @@
 <?php
-    include('../Projet_final/View/Template/Header.php');
+
+
+    include('../FINAL_PROJECT/View/Template/Header.php');
     
 
 
@@ -19,21 +21,30 @@
 
 </head>
 
-<body>
-<main class="p-3">
-    <h1>Hello </h1>
+<main class="p-5">
+  <section class="row">
+<?php
+$articles = json_decode(file_get_contents('articles.json'), true);
+
+foreach ($articles as $article) {
+    ?>
+  <article class="col-4">
+    <div class="card p-5">
+        <h2><?php echo htmlspecialchars($article['title']); ?></h2>
+        <p>Category: <?php echo htmlspecialchars($article['category']); ?></p>
+        <img src="uploads/<?php echo htmlspecialchars($article['image']); ?>" alt="<?php echo htmlspecialchars($article['title']); ?>">
+        <p><?php echo htmlspecialchars(substr($article['content'],0, 150));  ?>...</p>
+        <p>By <?php echo htmlspecialchars($article['username']['pseudo']); ?> on <?php echo htmlspecialchars($article['date']); ?></p>
+    </div>
+</article>
+    <?php
+}
+?>
+</section >
+
+
 </main>
-<footer>
-<?php include('../Projet_final/View/Template/Footer.php'); ?>
-</footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
-</body>
-
+<?php include('../Final_project/View/Template/Footer.php') ;?>
 </html>

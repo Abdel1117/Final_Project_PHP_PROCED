@@ -15,18 +15,20 @@
 
 <body>
   <header>
-        <?php include('../Projet_final/View/Template/Header.php'); ?>
+  <?php include('../FINAL_PROJECT/View/Template/Header.php'); ?>
   </header>
-  <main>
+  <main class="container my-4"  >
         <?php if(isset($_SESSION['user'])) : ?>
 
-            <?= $_SESSION['user'] ?>
-
+            <?= "<p>" .  $_SESSION['user']['pseudo'] .  "</p> "; ?>
+            <?= "<p>" .  $_SESSION['user']['prenom'] .  "</p> "; ?>
+            <?= "<p>" .  $_SESSION['user']['email'] .  "</p> "; ?>
+         
 
         <?php endif ?>
   </main>
   <footer>
-    <?php include('../Projet_final/View/Template/Footer.php') ; ?>
+  <?php include('../FINAL_PROJECT/View/Template/Footer.php'); ?>
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
